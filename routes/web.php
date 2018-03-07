@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return 'I am first one route.';
 });
+Route::get('/report', function () {
+    return 'I am first two route.';
+});
