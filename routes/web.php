@@ -20,3 +20,7 @@ Route::get('/about', function () {
 Route::get('/report', function () {
     return 'I am first two route.';
 });
+
+Route::get('/new', function () {
+    return 'I am first three route.';
+});
